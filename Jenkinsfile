@@ -10,10 +10,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Building.."
-                sh '''
-                echo "Building from Jenkins file"
-                '''
+                 echo "Name: Harsha Biruduraju"
+                echo "Roll Number: SE22UCSE321"
             }
         }
         stage('Test') {
